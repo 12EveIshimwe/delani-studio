@@ -1,6 +1,19 @@
-body {
-    background-image: url("file:///home/wecode/Documents/IP3-master/assets/backgrd/h_img.jpg");
+.first-text {
+    background-image: url("../img/h_img.jpg");
+    height: 500px;
+    width: 1700px;
+    text-align: center;
+    color: white;
+}
+.first-text>p {
+    font-size: 30px;
 }
 .us {
     text-align: center;
+}
+.three {
+    background-image: url("../img/s_image.jpg")
+}
+h1 {
+    font-size: 20px;
 }
