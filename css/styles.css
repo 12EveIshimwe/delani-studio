@@ -1,14 +1,14 @@
 .first-text {
     background-image: url("../img/h_img.jpg");
-    height: 700px;
+    height: 1000px;
     width: 1700px;
     text-align: center;
     color: white;
 }
-.first-text>p {
+.first-text>h1 {
     font-size: 30px;
 }
-.first-text>h4 {
+.first-text>p {
     font-size: 10px;
 }
 .us {
