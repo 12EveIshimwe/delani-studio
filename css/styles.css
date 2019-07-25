@@ -1,9 +1,10 @@
 .first-text {
     background-image: url("../img/h_img.jpg");
     height: 1000px;
-    width: 1700px;
+    width: 2000px;
     text-align: center;
-    color: white;
+    color: whitesmoke;
+    background-repeat:no-repeat;
 }
 .first-text>h1 {
     font-size: 30px;
@@ -13,9 +14,18 @@
 }
 .us {
     text-align: center;
+    padding: 30px;
+}
+.us>p {
+    font-size: 20px;
 }
 .three {
-    background-image: url("../img/s_image.jpg")
+    background-image: url("../img/s_image.jpg");
+    height: 1000px;
+    width: 1700px;
+    text-align: center;
+    background-repeat: no-repeat;
+    /* padding: 30px; */
 }
 h1 {
     font-size: 20px;
