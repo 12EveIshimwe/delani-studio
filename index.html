@@ -6,16 +6,17 @@
     <title>Delani Studios</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
     <body>
         <div class="container">
             <div id="one">
                 <div id="row">
                     <div class="first-text">
-                        <p><br><br><br></p><br><br><br><br><br><br><br>
+                        <p><br><br><br></p><br><br><br><br><br>
                         <img src="img/logo.png" height="80">
-                        <h1><strong><br><br>WELCOME<br><br> TO DELANI STUDIOS </strong></h1>
-                        <p><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</strong><br><br><br></p><br><br><br>
+                        <h1><br>WELCOME<br><br> TO DELANI STUDIOS </strong></h1>
+                        <p><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<br><br><br></p><br><br><br><br>
                         <img src="img/mouse_click.png" height="30">
                     </div>
                 </div>
@@ -23,7 +24,7 @@
           <div class="two">
               <div class="row">
                   <div class="us">
-                      <h2><strong>ABOUT US</strong></h2>
+                      <h4><strong>ABOUT US</strong></h4>
                       <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative<br> and agile.<br></p><p>Our approach unifies design, development and product management to create exceptional products. <br>We start each project by understanding our business goals, the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solutions.</p>
                   </div>
               </div>
@@ -32,7 +33,7 @@
                   <br><br><br><br><br>
                   <div class="row">
                       <div class="col-md-4"></div>
-                      <h3><strong>SERVICES</strong></h3><br>
+                      <h4><strong>SERVICES</strong></h4><br>
                       <!-- <div class="third-text"> -->
                       <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>based on your requirements, we can provide acomplete offering or just the pieces you need.</p><br>
                       </div>
@@ -43,16 +44,19 @@
                     <h4><strong>WHAT WE DO</strong></h4>
                     <div class="row" id="wedo">
                         <div id="des" class="col-md-4">
-                            <img src="img/design_icon.png"><br>
-                            <label>DESIGN</label>
+                            <img id="ign" src="img/design_icon.png"><br>
+                            <label id="design">DESIGN</label>
+                            <p id="despar">Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br> and user experience testing.<br>Throughout your project, our designers create and implement visual design and workflows, solicit user <br> feedback and work with you to make sure what gets built <br> is what is needed..</p>
                         </div>
                         <div id="dev" class="col-md-4">
-                            <img src="img/dev_icon.png"><br>
-                            <label>DEVELOPMENT</label>
+                            <img id="ment" src="img/dev_icon.png"><br>
+                            <label id="development">DEVELOPMENT</label>
+                            <p id="devpar">All engineers are fluent in the latest enterpise, mobile <br> amd web development technologies.<br> They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>
                         </div>
                         <div id="pro" class="col-md-4">
-                            <img src="img/product_icon.png"><br>
-                            <label>PRODUCT MANAGEMENT</label>
+                            <img id="duct" src="img/product_icon.png"><br>
+                            <label id="product">PRODUCT MANAGEMENT</label>
+                            <p id="propar">Planning and development is iterative. Because we are <br> constantly coding and testing, the products we build are <br> always ready to go live.</p>
                         </div>
                           <!-- </div> -->
                       </div>   
@@ -60,7 +64,7 @@
                </div> 
                <section>
                 <div class="port">
-                 <h5><strong>PORTFOLIO</strong></h5>
+                 <h4><strong>PORTFOLIO</strong></h4>
                  <div class="row" id="line1" class="col-md-4">
                  <img class="col-md-3" src="img/work4.jpg">
                  <img class="col-md-3" src="img/work3.jpg">
@@ -75,14 +79,25 @@
                 </div>
                 </div>
                </section>
-               <div class="col-md-4"></div>
-              <div class="row" id="last" >
-                <h4>CONTACT US</h4><br>
-                 <input type="text" class="col-md-4" placeholder="Name..." id="all">
-                 <input type="text" class="col-md-4" placeholder="Email..." id="all">
-                 <textarea class="col-md-6" id="all" rows="7" placeholder="Your message here..."></textarea>
-                 <button type="SUBMIT" class="btn btn-info" style="margin-top:5px">SUBMIT</button>
-             </div>
+               <div class="contact">
+                   <h4><strong>CONTACT US</strong></h4>
+                   <form>
+                       <div class="form-row justify-content-center">
+                           <div class="col-md-4">
+                               <input type="text" class="form-control" placeholder="Name...">
+                           </div>
+                           <div class="col-md-4">
+                               <input type="text" class="form-control" placeholder="Email...">
+                           </div>
+                       </div>
+                       <div class="form-row justify-content-center" style="margin-top:10px">
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="exampleFormControlTextArea" rows="8" placeholder="Your message here..." ></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-info" style="margin-top:10px">SUBMIT</button>
+                        </form>
+
              <div class="row" id="media">
                  <img class="col-md-1" src="img/twitter.png">
                  <img class="col-md-1" src="img/dribble.png">
@@ -94,7 +109,7 @@
                  <img class="col-md-1" src="img/flickr.png">
                  </div>
                  <div class="cp">
-                 <p>DELANI STUDIO</p>2019
+                  <p>DELANI STUDIO</p>2019
                  </div>
       </div>
   </body>

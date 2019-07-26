@@ -10,15 +10,9 @@
 .first-text>h1 {
     font-size: 30px;
 }
-.first-text>p {
-    font-size: 10px;
-}
 .us {
     text-align: center;
     padding: 30px;
-}
-.two {
-    font-size: 30%;
 }
 .us>p {
     font-size: 20px;
@@ -33,9 +27,6 @@
 }
 .three>p {
     text-align: center;
-}
-h1 {
-    font-size: 50px;
 }
 #line1 {
     border: 0px solid black;
@@ -61,15 +52,18 @@ h1 {
     margin-left: 300px;
     margin-right: 600px;
 }
-#last {
+.contact {
     background-image: url("../img/c_image.jpg");
-    padding-top: 40px;
+    padding-top: 60px;
     text-align: center;
-    background-size: 100%;
-    height: 300px;
-    width: 1200px;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 1100px;
+    margin-left: 15px;
     position: relative;
     border: 0px solid;
+    color: white;
+    padding: 50px;
 }
 .line1>img {
     height: 150px;
@@ -105,14 +99,15 @@ h1 {
     border: 0px solid;
     float:  right;
 }
-#all {
+.form-control {
     background: transparent;
+    border-radius: 0px;
 }
 #media {
-    padding: 20px;
+    padding: 100px;
     border: 0px solid;
-    margin-left: 500px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 .cp {
     text-align: center;
