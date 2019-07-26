@@ -17,38 +17,59 @@
     text-align: center;
     padding: 30px;
 }
+.two {
+    font-size: 30%;
+}
 .us>p {
     font-size: 20px;
 }
 .three {
     background-image: url("../img/s_image.jpg");
-    height: 300px;
+    height: 400px;
     width: 1200px;
     text-align: center;
     background-repeat: no-repeat;
-    /* padding: 30px; */
+    color: white;
+}
+.three>p {
+    text-align: center;
 }
 h1 {
-    font-size: 20px;
+    font-size: 50px;
 }
-.line1 {
+#line1 {
     border: 0px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 30px;
+    margin-left: 300px;
+    margin-right: 600px;
+    
 }
-.line2 {
+#line>img {
+    height: 300px;
+    width: 300px;
+}
+#line2 {
+    position : relative;
     border: 0px solid black;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding-top: 30px;
+    margin-left: 300px;
+    margin-right: 600px;
 }
-.last {
+#last {
     background-image: url("../img/c_image.jpg");
+    padding-top: 40px;
+    text-align: center;
+    background-size: 100%;
+    height: 300px;
+    width: 1200px;
+    position: relative;
+    border: 0px solid;
 }
 .line1>img {
     height: 150px;
@@ -58,6 +79,41 @@ h1 {
     height: 150px;
     width: 150px;
 }
-H3 {
+.four {
+    padding: 20px;
+    text-align: center;
+}
+.port {
+    text-align: center;
+}
+#wedo {
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+#des {
+    float: left;
+}
+#dev {
+    border: 0px solid black;
+    padding: 20px;
+}
+#pro {
+    border: 0px solid;
+    float:  right;
+}
+#all {
+    background: transparent;
+}
+#media {
+    padding: 20px;
+    border: 0px solid;
+    margin-left: 500px;
+    margin-right: 300px;
+}
+.cp {
     text-align: center;
 }
