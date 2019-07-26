@@ -1,7 +1,8 @@
 .first-text {
     background-image: url("../img/h_img.jpg");
-    height: 1000px;
-    width: 2000px;
+    background-size: 100% 100%;
+    height: 700px;
+    width: 1200px;
     text-align: center;
     color: whitesmoke;
     background-repeat:no-repeat;
@@ -21,12 +22,42 @@
 }
 .three {
     background-image: url("../img/s_image.jpg");
-    height: 1000px;
-    width: 1700px;
+    height: 300px;
+    width: 1200px;
     text-align: center;
     background-repeat: no-repeat;
     /* padding: 30px; */
 }
 h1 {
     font-size: 20px;
+}
+.line1 {
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.line2 {
+    border: 0px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.last {
+    background-image: url("../img/c_image.jpg");
+}
+.line1>img {
+    height: 150px;
+    width: 150px;
+}
+.line2>img {
+    height: 150px;
+    width: 150px;
+}
+H3 {
+    text-align: center;
 }
