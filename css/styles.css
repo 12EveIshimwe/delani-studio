@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+@media only screen and (min-width: 768px) {
+    body {
+         width: 100%;
+    }
+  }
 .first-text {
     background-image: url("../img/h_img.jpg");
     background-size: 100% 100%;
@@ -7,18 +17,17 @@
     color: whitesmoke;
     background-repeat:no-repeat;
 }
-.first-text>h1 {
+/* .first-text>h1 {
     font-size: 30px;
-}
+} */
 .us {
     text-align: center;
     padding: 30px;
 }
-.us>p {
-    font-size: 20px;
-}
+
 .three {
     background-image: url("../img/s_image.jpg");
+    background-size: 100% 100%;
     height: 400px;
     width: 1200px;
     text-align: center;
@@ -31,30 +40,34 @@
 #line1 {
     border: 0px solid black;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     padding-top: 30px;
-    margin-left: 300px;
-    margin-right: 600px;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 600px; */
     
 }
-#line>img {
-    height: 300px;
-    width: 300px;
+#line1 img {
+    height: 200px;
+    width: 200px;
 }
 #line2 {
-    position : relative;
+    /* position : relative; */
     border: 0px solid black;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     padding-top: 30px;
-    margin-left: 300px;
-    margin-right: 600px;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 200px;
+    margin-right: 600px; */
 }
 .contact {
     background-image: url("../img/c_image.jpg");
-    padding-top: 60px;
+    padding-top: 100px;
     text-align: center;
     background-size: 100% 100%;
     height: 400px;
@@ -65,28 +78,29 @@
     color: white;
     padding: 50px;
 }
-.line1>img {
+/* .line1>img {
     height: 150px;
     width: 150px;
-}
-.line2>img {
+} */
+.line2 img {
     height: 150px;
     width: 150px;
 }
 .four {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 .port {
     text-align: center;
+    /* margin-left: 80px; */
 }
 #wedo {
     border: 0px solid black;
     display: flex;
     flex-direction: row;
-    padding: 10px;
-    margin-left: 10px;
     padding: 20px;
+    margin-left: 10px;
+    /* padding: 20px; */
 }
 #des {
     float: left;
@@ -111,4 +125,59 @@
 }
 .cp {
     text-align: center;
+}
+#despar {
+    margin-top:5px;
+    display: none;
+}
+#devpar {
+    margin-top:5px;
+    display: none;
+}
+#propar {
+    margin-top:5px;
+    display: none;
+}
+#one {
+    margin-top:-90px;
+}
+#two {
+    margin-top:-90px;
+}
+#three {
+    margin-top:-90px;
+}
+#four {
+    margin-top:-90px;
+}
+#five {
+    margin-top:-90px;
+}
+#six {
+    margin-top:-90px;
+}
+#seven {
+    margin-top:-90px;
+}
+#eight {
+    margin-top:-90px;
+} 
+
+p>small{
+    margin-top: -50px;
+}
+#services {
+    margin-left: 100px;
+}
+input[type="text"]::placeholder {
+    color: white;
+}
+textarea.form-control::placeholder {
+    color: white;
+}
+h4 {
+    text-align: center;
+}
+#color {
+    color: black;
 }

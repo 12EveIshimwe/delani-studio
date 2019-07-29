@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Delani Studios</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <!-- <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+    <script src= "js/scripts.js"></script>
+    <title>Delani Studios</title>
+  </head>
+
     <body>
         <div class="container">
             <div id="one">
@@ -16,7 +19,7 @@
                         <p><br><br><br></p><br><br><br><br><br>
                         <img src="img/logo.png" height="80">
                         <h1><br>WELCOME<br><br> TO DELANI STUDIOS </strong></h1>
-                        <p><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<br><br><br></p><br><br><br><br>
+                        <p><strong>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT<br><br><br></p><br><br>
                         <img src="img/mouse_click.png" height="30">
                     </div>
                 </div>
@@ -25,92 +28,125 @@
               <div class="row">
                   <div class="us">
                       <h4><strong>ABOUT US</strong></h4>
-                      <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative<br> and agile.<br></p><p>Our approach unifies design, development and product management to create exceptional products. <br>We start each project by understanding our business goals, the user's needs and the product requirements.<br>Then we help translate them into effective and elegant solutions.</p>
+                      <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative<br> and agile.<br></p><p>Our approach unifies design, development and product management to create exceptional products.<br><br>We start each project by understanding our business goals, the user's needs and the product requirements<br>Then we help translate them into effective and elegant solutions.</p>
                   </div>
               </div>
           </div>
               <div class="three">
                   <br><br><br><br><br>
                   <div class="row">
-                      <div class="col-md-4"></div>
-                      <h4><strong>SERVICES</strong></h4><br>
+                      <div class="col-md-6"></div>
+                      <h4><strong>SERVICES</strong></h4><br><br>
                       <!-- <div class="third-text"> -->
-                      <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>based on your requirements, we can provide acomplete offering or just the pieces you need.</p><br>
+                      <p id="services">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand our product vision.<br>The outcome of this scoping session is a proposal or high-level statement of work.<br>based on your requirements, we can provide acomplete offering or just the pieces you need.</p><br>
                       </div>
                       <div class="col-md-4"></div>
                   </div>
-              </div>
+              <!-- </div> -->
               <div class="four">
                     <h4><strong>WHAT WE DO</strong></h4>
                     <div class="row" id="wedo">
                         <div id="des" class="col-md-4">
                             <img id="ign" src="img/design_icon.png"><br>
-                            <label id="design">DESIGN</label>
-                            <p id="despar">Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br> and user experience testing.<br>Throughout your project, our designers create and implement visual design and workflows, solicit user <br> feedback and work with you to make sure what gets built <br> is what is needed..</p>
+                            <p id="ign"><strong>DESIGN</strong></p>
+                            <p id="despar"><strong>DESIGN</strong><strong></strong></p>
+                            <p id="despar">Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br> and user experience testing.<br><br>Throughout your project, our designers create and<br> implement visual design and workflows, solicit user <br> feedback and work with you to make sure what gets built <br> is what is needed.</p>
                         </div>
                         <div id="dev" class="col-md-4">
                             <img id="ment" src="img/dev_icon.png"><br>
-                            <label id="development">DEVELOPMENT</label>
-                            <p id="devpar">All engineers are fluent in the latest enterpise, mobile <br> amd web development technologies.<br> They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>
+                            <p id="ment"><strong>DEVELOPMENT</strong></p>
+                            <p id="devpar"><strong>DEVELOPMENT</strong></p>
+                            <p id="devpar">All engineers are fluent in the latest enterpise, mobile <br> and web development technologies.<br><br> They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>
                         </div>
                         <div id="pro" class="col-md-4">
                             <img id="duct" src="img/product_icon.png"><br>
-                            <label id="product">PRODUCT MANAGEMENT</label>
-                            <p id="propar">Planning and development is iterative. Because we are <br> constantly coding and testing, the products we build are <br> always ready to go live.</p>
+                            <p id="duct"><strong>PRODUCT MANAGEMENT</strong></p>
+                            <p id="propar"><strong>PRODUCT MANAGEMENT</strong></p>
+                            <p id="propar">Planning and development is iterative. Because we are constantly coding and testing, the products we build are <br> always ready to go live. This iterative process allows for changes as business requirements evolve</p>
                         </div>
                           <!-- </div> -->
                       </div>   
                     </div>  
                </div> 
                <section>
-                <div class="port">
+                <div class="port container">
                  <h4><strong>PORTFOLIO</strong></h4>
-                 <div class="row" id="line1" class="col-md-4">
-                 <img class="col-md-3" src="img/work4.jpg">
-                 <img class="col-md-3" src="img/work3.jpg">
-                 <img class="col-md-3" src="img/work2.jpg">
-                 <img class="col-md-3" src="img/work1.jpg">
-                </div>
+                 <div class="row" id="line1">
+                     <div class="col-md-3">
+                        <img src="img/work4.jpg" id="work4" class="img-fluid">
+                        <p id="four">Dark Grey</p>
+                     </div>
+                     <div class="col-md-3">
+                        <img src="img/work3.jpg" id="work3" class="img-fluid">
+                        <p id="three">Mighty Ontario</p>
+                     </div>
+                     <div class="col-md-3">
+                         <img src="img/work2.jpg" id="work2" class="img-fluid">
+                         <p id="two">Yellowish</p>
+                     </div>
+                     <div class="col-md-3">
+                        <img src="img/work1.jpg" id="work1" class="img-fluid">
+                        <p id="one">Jim Carrey</p>
+                     </div>
+                 </div>
+
                 <div class="row" id="line2">
-                 <img class="col-md-3" src="img/work5.jpg">
-                 <img class="col-md-3" src="img/work6.jpg">
-                 <img class="col-md-3" src="img/work7.jpg">
-                 <img class="col-md-3" src="img/work8.jpg">
+                    <div class="col-md-3">
+                        <img src="img/work5.jpg" id="work5" class="img-fluid">
+                        <p id="five">Website</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/work6.jpg" id="work6" class="img-fluid">
+                        <p id="six">Settings</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/work7.jpg" id="work7" class="img-fluid">
+                        <p id="seven">Burned Logo Mock-up</p>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/work8.jpg" id="work8" class="img-fluid">
+                        <p id="eight">Giraffe Restaurant</p>
+                    </div>
+            
                 </div>
                 </div>
                </section>
-               <div class="contact">
+               <div class="contact" style="margin-top: 50px; margin-left: 300px;">
                    <h4><strong>CONTACT US</strong></h4>
                    <form>
-                       <div class="form-row justify-content-center">
-                           <div class="col-md-4">
-                               <input type="text" class="form-control" placeholder="Name...">
+                       <div class="form-row">
+                           <div class="col-md-6">
+                               <input type="text" class="form-control" placeholder="Name..." id="name">
                            </div>
-                           <div class="col-md-4">
-                               <input type="text" class="form-control" placeholder="Email...">
+                           <div class="col-md-6">
+                               <input type="text" class="form-control" placeholder="Email..."  id="email">
                            </div>
                        </div>
                        <div class="form-row justify-content-center" style="margin-top:10px">
-                        <div class="col-md-8">
-                            <textarea class="form-control" id="exampleFormControlTextArea" rows="8" placeholder="Your message here..." ></textarea>
+                        <div class="col-md-12">
+                            <textarea class="form-control" id="exampleFormControlTextArea" rows="6" placeholder="Your message here..." ></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-info" style="margin-top:10px">SUBMIT</button>
                         </form>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <button type="submit" class="btn btn-info" style="margin-top:10px" id="submit">SUBMIT</button>
+                        </div></div>
+               </div>    
 
-             <div class="row" id="media">
-                 <img class="col-md-1" src="img/twitter.png">
-                 <img class="col-md-1" src="img/dribble.png">
-                 <img class="col-md-1" src="img/facebook.png">
-                 <img class="col-md-1" src="img/g_plus.png">
-                 <img class="col-md-1" src="img/stumble_upon.png">
-                 <img class="col-md-1" src="img/behance.png">
-                 <img class="col-md-1" src="img/pinterest.png">
-                 <img class="col-md-1" src="img/flickr.png">
-                 </div>
-                 <div class="cp">
-                  <p>DELANI STUDIO</p>2019
-                 </div>
+             <div class="footer" style="margin-top: 100px;">
+                 <img src="img/twitter.png">
+                 <img src="img/dribble.png">
+                 <img src="img/facebook.png">
+                 <img src="img/g_plus.png">
+                 <img src="img/stumble_upon.png">
+                 <img src="img/behance.png">
+                 <img src="img/pinterest.png">
+                 <img src="img/flickr.png">
+             </div>
+             <footer id="color">
+                 <br>
+                 <p><small>DELANI STUDIO <br>2019 </small></p>
+             </footer>
       </div>
   </body>
 </html>
