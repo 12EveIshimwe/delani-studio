@@ -29,10 +29,11 @@ body{
     background-image: url("../img/s_image.jpg");
     background-size: 100% 100%;
     height: 400px;
-    width: 1200px;
+    width: 100%;
     text-align: center;
     background-repeat: no-repeat;
     color: white;
+    margin: 0 auto;
 }
 .three>p {
     text-align: center;
@@ -45,16 +46,14 @@ body{
     padding-top: 30px;
     margin: auto;
     text-align: center;
-    /* margin-left: 200px;
-    margin-right: 600px; */
-    
-}
+    /* margin-left: 100px; */
+    /* /* margin-right: 600px; */
+} 
 #line1 img {
     height: 200px;
     width: 200px;
 }
 #line2 {
-    /* position : relative; */
     border: 0px solid black;
     display: flex;
     /* flex-direction: row; */
@@ -82,16 +81,16 @@ body{
     height: 150px;
     width: 150px;
 } */
-.line2 img {
-    height: 150px;
-    width: 150px;
+#line2 img {
+    height: 200px;
+    width: 200px;
 }
 .four {
     padding: 50px;
     text-align: center;
 }
 .port {
-    text-align: center;
+    align-items: center;
     /* margin-left: 80px; */
 }
 #wedo {
@@ -180,4 +179,22 @@ h4 {
 }
 #color {
     color: black;
+}
+.footer {
+    align-items: center;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+
+}
+#color {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer img{
+    margin: 10px;
 }

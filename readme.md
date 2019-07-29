@@ -19,6 +19,7 @@ Html
 CSS
 Scripts
 JQuery
+Bootstrap
 ## Contact Details:
 Email:eveish@gmail.com
 Phone number: 0788123450
