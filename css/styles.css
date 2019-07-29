@@ -5,7 +5,7 @@ body{
 }
 @media only screen and (min-width: 768px) {
     body {
-         width: 200%;
+         width: 100%;
     }
   }
 .first-text {
