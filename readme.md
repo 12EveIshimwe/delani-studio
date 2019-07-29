@@ -1,5 +1,5 @@
 ## Delani Studio
-##Author:Eve Ishimwe
+#Author:Eve Ishimwe
 This Delani Studio website is a week 3 assignment that will help us to use all the concepts we've studied so far.
 ## Description
 Delani Studio Website is composed of profile pictures,an "about us" which describes what the project is going to do. A part of services which contains services available,a portfolio segment of different pictures up to eight that has their own story but related and has been done by Delani Studio,afterall there is a contact us 
